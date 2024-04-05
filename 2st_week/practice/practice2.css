@@ -1,0 +1,23 @@
+.container {
+    background-color: aqua;
+}
+
+.box {
+    /* display: inline-block; */
+    float: left;
+}
+
+.a {
+    background-color: yellow;
+    width: 30%;
+}
+
+.b {
+    background-color: yellowgreen;
+    width: 50%;
+}
+
+/* clear 를 하면 float 의 영향에서 벗어나게 할 수 있다 */
+footer {
+    clear: both;
+}
