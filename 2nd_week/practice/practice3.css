@@ -1,0 +1,37 @@
+body {
+    width: 800px;
+    font-family: Arial;
+}
+
+header,
+nav,
+section,
+aside,
+article {
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: lightgray;
+
+    padding: 4px;
+    margin: 4px;
+}
+
+article {
+    background-color: white;
+}
+
+section {
+    float: left;
+    width: 60%;
+    height: 300px;
+}
+
+aside {
+    float: right;
+    width: 35.5%;
+    height: 300px;
+}
+
+h1 {
+    text-align: center;
+}

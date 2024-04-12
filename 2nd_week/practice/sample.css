@@ -1,0 +1,58 @@
+body {
+    font-family: Arial;
+    width: 800px;
+}
+
+section {
+    float: left;
+    margin-left: 4px;
+}
+
+aside {
+    float: right;
+    margin-right: 4px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header,
+nav,
+section,
+article,
+aside,
+footer {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 4px;
+
+    background-color: lightgray;
+}
+
+article {
+    background-color: white;
+}
+
+section {
+    width: 490px;
+    height: 300px;
+}
+
+aside {
+    width: 280px;
+    height: 300px;
+}
+
+header,
+nav,
+footer,
+article {
+    margin: 4px;
+}
+
+h1 {
+    text-align: center;
+}

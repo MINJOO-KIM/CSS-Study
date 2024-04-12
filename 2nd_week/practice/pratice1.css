@@ -1,0 +1,34 @@
+.box {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: crimson;
+    color: white;
+    font-size: 50px;
+    margin: 50px;
+}
+
+/* .c {
+    float: right;
+} */
+
+
+.b {
+    /* box B 를 Normal Flow 에서 벗어나게 하니 box C 가 그 자리를 차지하고 이로 인해 겹침 현상 발생 */
+    float: left;
+}
+
+.c {
+    /* 겹침 현상을 없애기 위해 box C 도 Normal Flow 에서 벗어나 오른쪽으로 가도록 float 속성값 부여 */
+    float: right;
+}
+
+/* 근데 box B 를 float 으로 했을 때 그 자리를 box C 가 차지했었는데 텍스트는 그렇지 않음. 
+텍스트 포함 인라인 요소들은 자리를 차지 하지 않고 주변을 감싸게 된다 */
+
+
+/* span 은 원래 display: inline 인 요소인데 float 을 설정하면 display: block 으로 바뀌고
+실제 렌더링은 인라인 블록처럼 됨 */
+span {
+    float: right;
+}
